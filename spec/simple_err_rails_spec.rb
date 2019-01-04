@@ -1,3 +1,5 @@
+require 'simple_err'
+
 RSpec.describe SimpleErrRails do
   it "has a version number" do
     expect(SimpleErrRails::VERSION).not_to be nil
